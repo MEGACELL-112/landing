@@ -1,0 +1,275 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.menu{
+	text-align: center;
+	background: linear-gradient(to right,black,white );
+	height: 90px;
+}
+.menu a{
+  line-height: 90px;
+  background: #333333;
+  padding: 20px;
+  border-radius: 23px;
+  text-decoration: none;
+  color: #EEEEEE;
+  /* 	margin: 20px;*/
+  font-family: 'Chelsea Market', cursive;
+  transition: background 1.5s;
+}
+a:hover{
+  background: white;
+  color: black;
+}
+.banner{
+  position: relative;
+  /*height: 70px; */
+  background: #8dc2c0;  
+}
+.banner img{
+  display: block;
+  height: 860px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 0 50px;
+}
+ h2{
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-family: 'Chelsea Market', cursive;
+  text-align: center;
+}
+.bannerInfo p{
+	color: white;
+	margin-bottom: 20px;
+	font-family: 'Chelsea Market', cursive;
+  text-align: center;
+}
+.bannerInfo a{ 
+  font-family: 'Chelsea Market', cursive;
+  margin: 0 auto 20px;
+  background: white;
+  line-height: 50px;
+  width: 800px;
+  transition: 1s;
+  border-radius: 30px;
+  color: black;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bannerInfo{
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background: rgba(0,0,0,0.4);
+}
+.bannerInfo a:hover{
+	color: white;
+	background: black;
+}
+.AboutUs{
+	overflow: hidden;
+	margin-bottom: 51px;
+}
+ h3{
+  color: #333333;
+  font-size: 30px;
+  margin: 10px 0px 20px;
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+}
+.AboutUs p{
+  color: #878787;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  float: left;
+  width: 50%;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 17px;
+}
+.AboutUs img{
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-right: 60px;
+  padding-left: 10px;
+}
+/*body{
+ background: white;
+}*/
+#OurTeam {
+  text-align: center;
+}
+.TeamMember{
+  display: inline-block;
+  width: 32%;
+  overflow: hidden;
+}
+.TeamMember img{
+  object-fit: cover;
+  height: 300px;
+  border-radius: 50%;
+  width: 300px;
+  /*margin-left: 20px;*/
+}
+ #Prices h3{
+  color: #333333;
+  font-size: 30px;
+  margin: 10px 0px 20px;
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+  /*margin-left: 80px;*/
+}
+.TeamMember h4{
+  font-family: 'Chelsea Market', cursive;
+  /*margin-left: 30px;*/
+}
+.Prices img{
+  height: 150px;
+  width: 150px;
+}
+.CarPricesTable {
+  margin: 0 auto ;
+  border-collapse: collapse;
+   font-family: 'Chelsea Market', cursive;
+   font-size: 30px;
+}
+.CarPricesTable td{
+ border: 1px solid black; /* Параметры границы */
+ border-color: ;
+  padding: 10px;
+}
+/*h3{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 50px;
+}*/
+.Prices a {
+  color: #727b79;
+  text-decoration: none;
+  font-size: 35px;
+  /*margin: 0 auto;*/
+} 
+#Prices{
+  text-align: center;
+}
+.Prices__Item{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 30px;
+  display: inline-block;
+  width: 32%;
+}
+.banner2 img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+.banner2{
+  width: 32%;
+  display: inline-block;
+}
+footer h2{
+  color: #333333
+}
+footer{
+  text-align: center;
+}
+.feedback h3{
+  margin: 20px;
+  font-size: 50px;
+}
+.feedback input{
+  line-height: 40px;
+  display: block;
+  margin: 15px auto;
+  width: 90%;
+  padding-left: 5px;
+}
+.feedback form{
+  width: 500px;
+  margin: auto;
+}
+.feedback {
+  overflow: hidden;
+}
+.feedback input{
+  border-radius: 7px;
+  border: 1px solid darkgrey;
+  outline: none;
+  transition: 1s;
+}
+.feedback input:focus{
+ border: 1px dashed dimgrey;
+}
+.feedback textarea{
+  resize: none;
+  border: 1px solid darkgrey;
+  border-radius: 7px;
+  padding: 5px;
+  width: 90%;
+}
+.wrapper{
+  background: linear-gradient(to right,darkgrey,white );
+}
+.wrapper a{
+  color: #404444;
+  font-family: 'Chelsea Market', cursive;
+  line-height: 30px; 
+}
+@media (max-width: 768px){
+ .menu a{
+    display: block;
+     margin: auto;
+     line-height: normal;
+     border-radius: 3px;
+
+  }
+  .menu{
+    height: auto;
+  }
+  .banner img{
+   height: 500px;
+  }
+  .bannerInfo h2{
+    font-size: 30px;
+  }
+  .bannerInfo a{
+    width: 90%;
+  }
+  .AboutUs img {
+    width: 100%;
+    padding: 0;
+  }
+  .AboutUs p{
+   padding: 7px;
+   width: 100%;
+   line-height: normal;
+  }
+  .TeamMember {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .CarPricesTable{
+    max-width: 100%;
+  }
+  .Prices__Item {
+    width: 100%;
+  }
+  .feedback form{
+    width: 100%;
+  }
+  .banner2 img {
+    height: 100px;
+  }
+}
